@@ -40,7 +40,7 @@
 //     {
 //       for (int k = 0; k < myArray.GetLength(1) - 1; k++)
 //       {
-//         if (myArray[i, k] < myArray[i, k + 1])             //?
+//         if (myArray[i, k] < myArray[i, k + 1])             
 //         {
 //           int temp = myArray[i, k + 1];
 //           myArray[i, k + 1] = myArray[i, k];
@@ -83,7 +83,7 @@
 
 // int sumLineElements(int[,] myArray, int i)
 // {
-//   int SumLine = myArray[i,0];                            //?
+//   int SumLine = myArray[i,0];                            
 //   for (int j = 1; j < myArray.GetLength(1); j++)
 //   {
 //     SumLine += myArray[i,j];
